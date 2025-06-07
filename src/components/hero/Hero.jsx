@@ -2,7 +2,7 @@ import { getImageUrl } from "../../utils";
 
 function Hero() {
   return (
-    <section className="w-full text-white py-20">
+    <section className="w-full text-white px-15 py-20">
       <div className="w-full flex flex-col md:flex-row items-center justify-between gap-12 px-6 md:px-16">
         {/* Left Side */}
         <div className="flex-1 space-y-6">

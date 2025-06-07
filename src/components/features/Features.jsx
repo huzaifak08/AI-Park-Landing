@@ -1,9 +1,12 @@
 import { FaCamera, FaMagic, FaFileExport, FaCheckCircle } from "react-icons/fa";
+import { FaRobot } from "react-icons/fa";
+import Quibly from "./Quibly";
+import AuraAI from "./AuraAI";
 
 function Features() {
   return (
     <section
-      className="bg-white py-16 px-4 sm:px-6 md:px-10 lg:px-20"
+      className="bg-white py-16 px-4 sm:px-6 md:px-10 lg:px-20 scroll-mt-24"
       id="features"
     >
       <div className="max-w-7xl mx-auto text-center">
@@ -48,6 +51,12 @@ function Features() {
             </p>
           </div>
         </div>
+
+        {/* Aura AI Feature Block */}
+        <AuraAI />
+
+        {/* Quibly */}
+        <Quibly />
 
         {/* Bottom Trust Badges */}
         <div className="flex flex-wrap justify-center items-center gap-4 text-sm text-gray-800">
