@@ -42,7 +42,7 @@ function Quibly() {
           <img
             src={getImageUrl("quibly.svg")}
             alt="Quibly Preview"
-            className="w-[160px] md:w-[200px] rounded-2xl shadow-2xl"
+            className="w-[160px] md:w-[240px]"
           />
         </div>
       </div>

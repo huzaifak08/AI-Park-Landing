@@ -2,7 +2,7 @@ import { getImageUrl } from "../../utils";
 
 function AuraAI() {
   return (
-    <section className="bg-gradient-to-br from-zinc-900 to-black text-white rounded-2xl py-20 px-6 my-12">
+    <section className="bg-gradient-to-br from-zinc-900 to-black text-white rounded-2xl py-7 px-6 my-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left Side – Description */}
         <div className="animate-fadeInLeft text-left">
@@ -33,7 +33,7 @@ function AuraAI() {
           <img
             src={getImageUrl("aura.svg")}
             alt="Aura AI Mobile Preview"
-            className="w-[160px] md:w-[200px] rounded-2xl shadow-2xl"
+            className="w-[160px] md:w-[240px]"
           />
         </div>
       </div>

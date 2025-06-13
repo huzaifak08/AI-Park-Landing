@@ -1,4 +1,3 @@
-import { Features } from "tailwindcss";
 import style from "./App.module.css";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
